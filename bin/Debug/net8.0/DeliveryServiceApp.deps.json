@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DeliveryServiceApp/1.0.0": {
+        "dependencies": {
+          "Polly.Caching.Serialization.Json": "3.0.0"
+        },
+        "runtime": {
+          "DeliveryServiceApp.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "Polly/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Polly.Caching.Serialization.Json/3.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "Polly": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Caching.Serialization.Json.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeliveryServiceApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Polly/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SFvr1F8RfyHLcgka6RRcHe/wu8+zrw3L/W9FYopxAP5CgS62Afmpvhph7OfIZZGEumyIR5xBeAkWHSVecRlLaQ==",
+      "path": "polly/7.0.0",
+      "hashPath": "polly.7.0.0.nupkg.sha512"
+    },
+    "Polly.Caching.Serialization.Json/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kxQTEPJENulNNwdSSTyVjekbNz/HsDP3BUw/aEAbsSvRtvsmxZVPjxwFAv9vG1Rr8zQk3EAJY6DeRC9yJc9GUQ==",
+      "path": "polly.caching.serialization.json/3.0.0",
+      "hashPath": "polly.caching.serialization.json.3.0.0.nupkg.sha512"
+    }
+  }
+}

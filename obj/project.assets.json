@@ -1,0 +1,200 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Polly/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        }
+      },
+      "Polly.Caching.Serialization.Json/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "Polly": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Polly.Caching.Serialization.Json.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Caching.Serialization.Json.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Polly/7.0.0": {
+      "sha512": "SFvr1F8RfyHLcgka6RRcHe/wu8+zrw3L/W9FYopxAP5CgS62Afmpvhph7OfIZZGEumyIR5xBeAkWHSVecRlLaQ==",
+      "type": "package",
+      "path": "polly/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Polly.deps.json",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
+        "lib/netstandard1.1/Polly.xml",
+        "lib/netstandard2.0/Polly.deps.json",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.pdb",
+        "lib/netstandard2.0/Polly.xml",
+        "polly.7.0.0.nupkg.sha512",
+        "polly.nuspec"
+      ]
+    },
+    "Polly.Caching.Serialization.Json/3.0.0": {
+      "sha512": "kxQTEPJENulNNwdSSTyVjekbNz/HsDP3BUw/aEAbsSvRtvsmxZVPjxwFAv9vG1Rr8zQk3EAJY6DeRC9yJc9GUQ==",
+      "type": "package",
+      "path": "polly.caching.serialization.json/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Polly.Caching.Serialization.Json.deps.json",
+        "lib/netstandard1.1/Polly.Caching.Serialization.Json.dll",
+        "lib/netstandard1.1/Polly.Caching.Serialization.Json.pdb",
+        "lib/netstandard1.1/Polly.Caching.Serialization.Json.xml",
+        "lib/netstandard2.0/Polly.Caching.Serialization.Json.deps.json",
+        "lib/netstandard2.0/Polly.Caching.Serialization.Json.dll",
+        "lib/netstandard2.0/Polly.Caching.Serialization.Json.pdb",
+        "lib/netstandard2.0/Polly.Caching.Serialization.Json.xml",
+        "polly.caching.serialization.json.3.0.0.nupkg.sha512",
+        "polly.caching.serialization.json.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Polly.Caching.Serialization.Json >= 3.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\beshe\\.nuget\\packages\\": {},
+    "D:\\Visual studio\\packet\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\beshe\\source\\repos\\DeliveryServiceApp\\DeliveryServiceApp\\DeliveryServiceApp.csproj",
+      "projectName": "DeliveryServiceApp",
+      "projectPath": "C:\\Users\\beshe\\source\\repos\\DeliveryServiceApp\\DeliveryServiceApp\\DeliveryServiceApp.csproj",
+      "packagesPath": "C:\\Users\\beshe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\beshe\\source\\repos\\DeliveryServiceApp\\DeliveryServiceApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Visual studio\\packet\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\beshe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Polly.Caching.Serialization.Json": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
